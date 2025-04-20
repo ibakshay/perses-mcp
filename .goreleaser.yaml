@@ -38,7 +38,7 @@ changelog:
 release:
   draft: true
   prerelease: auto
-  name_template: "Perses MCP Server {{.Version}}"
+  name_template: "{{ .Version }} / {{ .Env.DATE }}"
   footer: >-
 
     ---
