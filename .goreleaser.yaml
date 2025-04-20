@@ -36,9 +36,7 @@ changelog:
       - "^test:"
 
 release:
-  draft: true
   prerelease: auto
-  name_template: "{{ .Version }} / {{ .Env.DATE }}"
   footer: >-
 
     ---
